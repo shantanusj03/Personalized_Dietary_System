@@ -1,0 +1,114 @@
+# -------------------------
+# Byte-compiled / optimized files
+# -------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# -------------------------
+# Build / packaging artifacts
+# -------------------------
+.Python
+build/
+dist/
+.eggs/
+*.egg-info/
+lib/
+lib64/
+pip-wheel-metadata/
+share/python-wheels/
+MANIFEST
+
+# -------------------------
+# Virtual environments (keep ML model files separate)
+# -------------------------
+.venv/
+venv/
+venv.bak/
+.env/
+ENV/
+ENV.bak/
+*/.venv/
+*/venv/
+
+# -------------------------
+# Installer / dependency logs
+# -------------------------
+pip-log.txt
+pip-delete-this-directory.txt
+
+# -------------------------
+# Testing / coverage
+# -------------------------
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+.hypothesis/
+*.cover
+*.py,cover
+
+# -------------------------
+# Type checking / lint caches
+# -------------------------
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+
+# -------------------------
+# IDE / tooling
+# -------------------------
+.vscode/
+.idea/
+*.code-workspace
+
+# -------------------------
+# Streamlit + runtime state
+# -------------------------
+.streamlit/cache/
+.streamlit/secrets.toml
+
+# -------------------------
+# Secrets / credentials
+# -------------------------
+firebase_config.json
+.env.*
+
+# -------------------------
+# Logs & OS junk
+# -------------------------
+*.log
+logs/
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Datasets / large inputs
+# -------------------------
+data/
+datasets/
+*.csv
+*.tsv
+*.parquet
+*.feather
+
+# -------------------------
+# ML weights (model file tracked separately)
+# -------------------------
+*.h5
+*.pb
+*.pt
+*.pth
+*.onnx
+
+# -------------------------
+# Misc project tooling
+# -------------------------
+__pypackages__/
+.ipynb_checkpoints
+node_modules/
